@@ -1,0 +1,17 @@
+usd 
+eur
+jpy
+gbp
+aud
+chf
+cad
+mxn
+cny
+nzd
+sek
+rub
+hkd
+sgd
+try
+ffr
+skr

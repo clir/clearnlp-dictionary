@@ -21,21 +21,19 @@ package com.clearnlp.dictionary;
  */
 public interface DTPath
 {
-	String PATH_DICTIONARY	= "com/clearnlp/dictionary/";
-	String PATH_UNIVERSAL	= PATH_DICTIONARY + "universal/";
-	String PATH_ENGLISH		= PATH_DICTIONARY + "english/";
+	String DICTIONARY	= "com/clearnlp/dictionary/";
+	String UNIVERSAL	= DICTIONARY + "universal/";
+	String ENGLISH		= DICTIONARY + "english/";
+
+	// Universal
+	String CURRENCY_DOLLAR	= UNIVERSAL + "currency-dollar.txt";
+	String CURRENCY			= UNIVERSAL + "currency.txt";
+	String HTML_TAGS		= UNIVERSAL + "html-tags.txt";
+	String UNITS			= UNIVERSAL + "units.txt";
 	
-	// universal dictionary
-	String PATH_CURRENCY_DOLLAR	= PATH_UNIVERSAL + "currency-dollar.txt";
-	String PATH_CURRENCY		= PATH_UNIVERSAL + "currency.txt";
-	String PATH_EMOTICON		= PATH_UNIVERSAL + "emoticons.txt";
-	String PATH_UNICODE			= PATH_UNIVERSAL + "unicode.txt";
-	String PATH_HTML_TAGS		= PATH_UNIVERSAL + "html-tags.txt";
-	
-	
-	
-	String ABBREVIATIONS = PATH_DICTIONARY + "abbreviations.txt";
-	String COMPOUNDS     = PATH_DICTIONARY + "compounds.txt";
-	String HYPHENS       = PATH_DICTIONARY + "hyphens.txt";
-	String UNITS         = PATH_DICTIONARY + "units.txt";
+	// English
+	String EN_ABBREVIATION_PERIOD	= ENGLISH + "abbreviation-period.txt";
+	String EN_HYPHEN_PREFIX			= ENGLISH + "hyphen-prefix.txt";
+	String EN_HYPHEN_SUFFIX			= ENGLISH + "hyphen-suffix.txt";
+	String EN_COMPOUND				= ENGLISH + "compounds.txt";
 }

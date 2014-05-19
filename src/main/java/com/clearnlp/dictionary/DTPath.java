@@ -24,7 +24,7 @@ public interface DTPath
 	String DICTIONARY	= "com/clearnlp/dictionary/";
 	String UNIVERSAL	= DICTIONARY + "universal/";
 	String ENGLISH		= DICTIONARY + "english/";
-
+	
 	// Universal
 	String CURRENCY_DOLLAR	= UNIVERSAL + "currency-dollar.txt";
 	String CURRENCY			= UNIVERSAL + "currency.txt";
@@ -35,5 +35,5 @@ public interface DTPath
 	String EN_ABBREVIATION_PERIOD	= ENGLISH + "abbreviation-period.txt";
 	String EN_HYPHEN_PREFIX			= ENGLISH + "hyphen-prefix.txt";
 	String EN_HYPHEN_SUFFIX			= ENGLISH + "hyphen-suffix.txt";
-	String EN_COMPOUND				= ENGLISH + "compounds.txt";
+	String EN_COMPOUNDS 			= ENGLISH + "compounds.txt";
 }

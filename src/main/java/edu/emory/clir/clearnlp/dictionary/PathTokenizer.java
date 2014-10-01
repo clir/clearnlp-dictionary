@@ -13,21 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.clearnlp.dictionary;
+package edu.emory.clir.clearnlp.dictionary;
 
 /**
  * @since 3.0.0
- * @author Jinho D. Choi ({@code jdchoi77@gmail.com})
+ * @author Jinho D. Choi ({@code jinho.choi@emory.edu})
  */
-public interface DTPath
+public interface PathTokenizer
 {
-	String DICTIONARY	= "com/clearnlp/dictionary/";
+	String DICTIONARY	= "edu/emory/clir/clearnlp/dictionary/tokenizer";
 	String UNIVERSAL	= DICTIONARY + "universal/";
 	String ENGLISH		= DICTIONARY + "english/";
 	
 	// Universal
 	String CURRENCY_DOLLAR	= UNIVERSAL + "currency-dollar.txt";
 	String CURRENCY			= UNIVERSAL + "currency.txt";
+	String EMOTICONS		= UNIVERSAL + "emoticons.txt";
 	String HTML_TAGS		= UNIVERSAL + "html-tags.txt";
 	String UNITS			= UNIVERSAL + "units.txt";
 	

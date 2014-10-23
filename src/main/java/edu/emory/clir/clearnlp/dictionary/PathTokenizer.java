@@ -21,7 +21,7 @@ package edu.emory.clir.clearnlp.dictionary;
  */
 public interface PathTokenizer
 {
-	String DICTIONARY	= "edu/emory/clir/clearnlp/dictionary/tokenizer";
+	String DICTIONARY	= "edu/emory/clir/clearnlp/dictionary/tokenizer/";
 	String UNIVERSAL	= DICTIONARY + "universal/";
 	String ENGLISH		= DICTIONARY + "english/";
 	

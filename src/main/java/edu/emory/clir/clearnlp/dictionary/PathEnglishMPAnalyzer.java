@@ -19,22 +19,20 @@ package edu.emory.clir.clearnlp.dictionary;
  * @since 3.0.0
  * @author Jinho D. Choi ({@code jinho.choi@emory.edu})
  */
-public interface PathTokenizer
+public interface PathEnglishMPAnalyzer
 {
-	String ROOT	= "edu/emory/clir/clearnlp/dictionary/tokenizer/";
-	String UNIVERSAL = ROOT + "universal/";
-	String ENGLISH   = ROOT + "english/";
+	String ROOT = "edu/emory/clir/clearnlp/dictionary/morphology/english/";
+
+	String INFLECTION_SUFFIX = ROOT + "inflection_suffix.xml";
+	String DERIVATION_SUFFIX = ROOT + "derivation_suffix.xml";
+	String ABBREVIATOIN_RULE = ROOT + "abbreviation.rule";
+	String CARDINAL_BASE     = ROOT + "cardinal.base";
+	String ORDINAL_BASE      = ROOT + "ordinal.base";
 	
-	// Universal
-	String CURRENCY_DOLLAR	= UNIVERSAL + "currency-dollar.txt";
-	String CURRENCY			= UNIVERSAL + "currency.txt";
-	String EMOTICONS		= UNIVERSAL + "emoticons.txt";
-	String HTML_TAGS		= UNIVERSAL + "html-tags.txt";
-	String UNITS			= UNIVERSAL + "units.txt";
-	
-	// English
-	String EN_ABBREVIATION_PERIOD	= ENGLISH + "abbreviation-period.txt";
-	String EN_HYPHEN_PREFIX			= ENGLISH + "hyphen-prefix.txt";
-	String EN_HYPHEN_SUFFIX			= ENGLISH + "hyphen-suffix.txt";
-	String EN_COMPOUNDS 			= ENGLISH + "compounds.txt";
+	String VERB          = "verb";
+	String NOUN          = "noun";
+	String ADJECTIVE     = "adjective";
+	String ADVERB        = "adverb";
+	String EXT_BASE      = ".base";
+	String EXT_EXCEPTION = ".exc";
 }

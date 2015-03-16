@@ -11,6 +11,7 @@
     <url>https://github.com/clir/clearnlp-dictionary</url>
     <connection>scm:git:git://github.com:clir/clearnlp-dictionary.git</connection>
     <developerConnection>scm:git:git@github.com:clir/clearnlp-dictionary.git</developerConnection>
+    <tag>clearnlp-dictionary-3.0</tag>
   </scm>
 
   <licenses>
@@ -61,11 +62,6 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>1.5</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5</version>
         <configuration>
@@ -75,22 +71,6 @@
           <goals>deploy</goals>
         </configuration>
 	  </plugin>
-	  <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9</version>
-        <executions>
-          <execution>
-            <id>attach-javadocs</id>
-            <goals>
-              <goal>jar</goal>
-            </goals>
-            <configuration>
-              <additionalparam>-Xdoclint:none</additionalparam>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
   </build>
 </project>

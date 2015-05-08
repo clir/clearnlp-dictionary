@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.emory.clir</groupId>
   <artifactId>clearnlp-dictionary</artifactId>
-  <version>3.1</version>
+  <version>3.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>clearnlp-dictionary</name>
   <url>http://www.clearnlp.com</url>
@@ -11,7 +11,7 @@
     <url>https://github.com/clir/clearnlp-dictionary</url>
     <connection>scm:git:git://github.com:clir/clearnlp-dictionary.git</connection>
     <developerConnection>scm:git:git@github.com:clir/clearnlp-dictionary.git</developerConnection>
-    <tag>clearnlp-dictionary-3.1</tag>
+    <tag>clearnlp-dictionary-3.0</tag>
   </scm>
 
   <licenses>
